@@ -190,6 +190,7 @@ itemsMaxNum_sellOrStore 99
 cartMaxWeight 7900
 itemsTakeAuto_new 0
 itemsTakeGreed 0
+itemsTakeDistanceMax 2
 itemsCheckWeight 1
 
 lockMap prt_fild08
