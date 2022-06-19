@@ -788,7 +788,7 @@ sub processTake {
 		if ($char->{sitting}) {
 			stand();
 
-		} elsif ($dist > 1) {
+		} elsif ($dist > 1 && $dist < $config{'itemsTakeDistanceMax'}) {
 			if (!$config{itemsTakeAuto_new}) {
 				my (%vec, %pos);
 				getVector(\%vec, $item->{pos}, $myPos);
